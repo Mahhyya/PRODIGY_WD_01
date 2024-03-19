@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(228, 232, 15, 0.5); /* Initial background color */
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #navbar li {
+    float: left;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: rgb(219, 9, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar li a:hover {
+    background-color: rgba(234, 10, 207, 0.2); /* Background color on hover */
+    transition: background-color 0.3s ease;
+  }
+  
+  .content {
+    margin-top: 50px; /* Adjust according to navbar height */
+    height: 2000px; /* Just for demonstration */
+  }
+  
